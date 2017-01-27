@@ -33,9 +33,44 @@ img  {
   margin-top: 7px;
 }
 
+#title-screen {
+  position: absolute;
+  left: 100px;
+  top: 58px;
+  height: 602px;
+  background: rgba(200,200,200,0.85);
+  width: 1050px;
+}
+
+.no-title-screen {
+  display: none;
+}
+
+.title-screen-text {
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 4.5;
+  margin-top: 10%;
+}
+
+.welcome-text {
+  font-size: 34px;
+}
+
+.game-instructions {
+  font-size: 24px;
+}
+
+.start-instructions {
+  font-size: 24px;
+}
+
 #game-screen {
   margin-left: 100px;
 }
+
 
 .score-text{
   font-family: 'Dosis', sans-serif;
@@ -61,4 +96,31 @@ img  {
 .shots-number {
   display: inline-block;
   margin-left: 25px;
+}
+
+#ending-screen {
+  position: absolute;
+  left: 100px;
+  top: 58px;
+  height: 602px;
+  background: rgba(200,200,200,0.85);
+  width: 1050px;
+  display: none;
+}
+
+.ending-screen-text {
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 4.5;
+  margin-top: 10%;
+}
+
+.game-over-text {
+  font-size: 28px;
+}
+
+.ending-score-text {
+  font-size: 28px;
 }

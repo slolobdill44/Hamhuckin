@@ -3,7 +3,7 @@
 Ham Huckin' is a simple Javascript projectile game built using [Matter.js]http://brm.io/matter-js/.
 
 ![gameplay]
-[gameplay]: ./docs/sample.png
+[gameplay]: ./assets/sample.png
 
 ### Technologies
 
