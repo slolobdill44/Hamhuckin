@@ -71,13 +71,18 @@ img  {
   margin-left: 100px;
 }
 
+#in-game-text {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 80px;
+  width: 100%;
+}
 
 .score-text{
   font-family: 'Dosis', sans-serif;
-  top: 115px;
-  right: 258px;
   font-size: 34px;
-  position: absolute;
 }
 
 .score-number {
@@ -87,10 +92,7 @@ img  {
 
 .shots-text {
   font-family: 'Dosis', sans-serif;
-  top: 115px;
-  left: 187px;
   font-size: 34px;
-  position: absolute;
 }
 
 .shots-number {
