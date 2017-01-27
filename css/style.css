@@ -36,3 +36,29 @@ img  {
 #game-screen {
   margin-left: 100px;
 }
+
+.score-text{
+  font-family: 'Dosis', sans-serif;
+  top: 115px;
+  right: 258px;
+  font-size: 34px;
+  position: absolute;
+}
+
+.score-number {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.shots-text {
+  font-family: 'Dosis', sans-serif;
+  top: 115px;
+  left: 187px;
+  font-size: 34px;
+  position: absolute;
+}
+
+.shots-number {
+  display: inline-block;
+  margin-left: 25px;
+}
