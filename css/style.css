@@ -1,0 +1,38 @@
+
+#info-nav {
+  margin: 0 auto;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+.title-text {
+  font-family: 'Dosis', sans-serif;
+  font-size: 24px;
+}
+
+a {
+  width: 32px;
+  height: 32px;
+
+}
+
+img  {
+  margin-left: 20px;
+  margin-top: 7px;
+  height: 20px;
+  position: absolute;
+}
+
+.portfolio-link {
+  font-family: 'Dosis', sans-serif;
+  position: absolute;
+  width: 90px;
+  margin-left: 62px;
+  margin-top: 7px;
+}
+
+#game-screen {
+  margin-left: 100px;
+}
