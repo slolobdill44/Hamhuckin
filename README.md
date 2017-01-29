@@ -48,8 +48,23 @@ var whackerPullback = Constraint.create({
   }
 });
 
+document.onkeydown = function (keys) {
+  if (keys.keyCode === 32 && whackerPullbackAnchor.x > 120) {
+    whackerPullbackAnchor.x -= 8;
+    whackerPullbackAnchor.y += 8;
+  }
+};
 
-// causes whacker to spring back once the whackerPullbackAnchor is released
+
+// Once the whackerPullbackAnchor is released, the tension in the whacker spring launches the projectile
+
+document.onkeyup = function (keys) {
+  if (keys.keyCode === 32) {
+    World.remove(engine.world, whackerPullback);
+    whackerPullbackAnchor.x = pullbackPosition[0];
+    whackerPullbackAnchor.y = pullbackPosition[1];
+  }
+};
 
 var whackerSpringAnchor = { x: 325, y: 375 };
 var whackerSpring = Constraint.create({
@@ -61,6 +76,7 @@ var whackerSpring = Constraint.create({
     lineWidth: 0.01,
     strokeStyle: '#dfa417'
   }
+
 });
 ```
 
