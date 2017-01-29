@@ -56,7 +56,7 @@ document.onkeydown = function (keys) {
 };
 
 
-// Once the whackerPullbackAnchor is released, the tension in the whacker spring launches the projectile
+// Once the whackerPullbackAnchor is released, the tension in the whackerSpring launches the projectile
 
 document.onkeyup = function (keys) {
   if (keys.keyCode === 32) {
