@@ -1,23 +1,11 @@
 # Ham Huckin'
 
-<<<<<<< HEAD
 
-[Live App][live]
+[Live App][live-link]
 
-[live]: https://slolobdill44.github.io/hamhuckin/
+[live-link]: https://slolobdill44.github.io/hamhuckin/
 
-Ham Huckin' is a simple Javascript projectile game built using [Matter.js][matter].
-
-[matter]: http://brm.io/matter-js/
-=======
-[Live App][live]
-
-[live]: https://slolobdill44.github.io/hamhuckin/
-
-Ham Huckin' is a simple Javascript projectile game built using [Matter.js][matter].
-
-[matter]: http://brm.io/matter-js/
->>>>>>> b84a3c3ab9b671ced50480ae3b99ae7610cc75a6
+Ham Huckin' is a simple Javascript projectile game built using [Matter.js]http://brm.io/matter-js/.
 
 ![gameplay]
 [gameplay]: ./assets/sample.png
@@ -59,23 +47,8 @@ var whackerPullback = Constraint.create({
   }
 });
 
-document.onkeydown = function (keys) {
-  if (keys.keyCode === 32 && whackerPullbackAnchor.x > 120) {
-    whackerPullbackAnchor.x -= 8;
-    whackerPullbackAnchor.y += 8;
-  }
-};
 
-
-// Once the whackerPullbackAnchor is released, the tension in the whackerSpring launches the projectile
-
-document.onkeyup = function (keys) {
-  if (keys.keyCode === 32) {
-    World.remove(engine.world, whackerPullback);
-    whackerPullbackAnchor.x = pullbackPosition[0];
-    whackerPullbackAnchor.y = pullbackPosition[1];
-  }
-};
+// causes whacker to spring back once the whackerPullbackAnchor is released
 
 var whackerSpringAnchor = { x: 325, y: 375 };
 var whackerSpring = Constraint.create({
@@ -87,7 +60,6 @@ var whackerSpring = Constraint.create({
     lineWidth: 0.01,
     strokeStyle: '#dfa417'
   }
-
 });
 ```
 

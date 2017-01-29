@@ -2,13 +2,11 @@
 
 <<<<<<< HEAD
 
-[Live App][live]
+[Live App][live-link]
 
-[live]: https://slolobdill44.github.io/hamhuckin/
+[live-link]: https://slolobdill44.github.io/hamhuckin/
 
-Ham Huckin' is a simple Javascript projectile game built using [Matter.js][matter].
-
-[matter]: http://brm.io/matter-js/
+Ham Huckin' is a simple Javascript projectile game built using [Matter.js]http://brm.io/matter-js/.
 =======
 [Live App][live]
 
@@ -17,7 +15,7 @@ Ham Huckin' is a simple Javascript projectile game built using [Matter.js][matte
 Ham Huckin' is a simple Javascript projectile game built using [Matter.js][matter].
 
 [matter]: http://brm.io/matter-js/
->>>>>>> b84a3c3ab9b671ced50480ae3b99ae7610cc75a6
+>>>>>>> origin/master
 
 ![gameplay]
 [gameplay]: ./assets/sample.png
